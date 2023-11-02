@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 def web():
   root = tk.Tk()
-  test = tk.messagebox.askquestion("Warning","Are you shor you want to contine", icon = "warning")
+  test = tk.messagebox.askquestion("Warning","Are you sure you want to contine", icon = "warning")
   print(test)
   if test == "yes":
     root.title("Web")
